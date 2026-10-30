@@ -1,4 +1,4 @@
-﻿:root {
+:root {
       /* KGR palette: white ground, royal blue + gold type */
       --white: #FFFFFF;
       --tint: #F4F7FE;
@@ -1055,16 +1055,16 @@
       width: 100%;
       display: flex;
       align-items: baseline;
-      gap: clamp(0.75rem, 1.5vw, 1.2rem);
-      padding: 1.25rem 0;
+      gap: clamp(0.6rem, 1.2vw, 1rem);
+      padding: clamp(0.9rem, 1.6vw, 1.25rem) 0;
       background: none;
       border: 0;
       cursor: pointer;
       color: var(--blue);
       text-align: left;
-      font: 800 clamp(1.2rem, 2.2vw, 2.3rem)/1.15 var(--display);
-      font-stretch: 110%;
-      letter-spacing: -0.01em;
+      font: 800 clamp(1.05rem, 1.85vw, 1.85rem)/1.2 var(--display);
+      font-stretch: 105%;
+      letter-spacing: -0.015em;
       word-break: normal;
       overflow-wrap: break-word;
       transition: color .4s, padding .5s
